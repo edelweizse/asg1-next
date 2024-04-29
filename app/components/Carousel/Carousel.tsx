@@ -20,6 +20,7 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
   const [emblaRef, emblaApi] = useEmblaCarousel(options, [Autoplay(4000)]);
 
   const onNavButtonClick = useCallback((emblaApi: EmblaCarouselType | null) => {
+    //@ts-ignore
     const autoplay = emblaApi?.plugins?.autoplay;
     if (!autoplay) return;
 
