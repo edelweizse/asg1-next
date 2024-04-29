@@ -4,14 +4,6 @@
 
 @layer base {
   :root {
-    --text: #050a00;
-    --background: #f9fff0;
-    --primary: #8ffd12;
-    --secondary: #7cfe7c;
-    --accent: #43fe78;
-  }
-
-  .dark {
     --text: #fafff5;
     --background: #090f00;
     --primary: #80ed02;
